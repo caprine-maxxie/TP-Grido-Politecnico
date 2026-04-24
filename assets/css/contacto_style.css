@@ -8,3 +8,20 @@
 
 }
 
+.displays {
+    display: flex;
+
+}
+
+#alineamos {
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+#alinea {
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+

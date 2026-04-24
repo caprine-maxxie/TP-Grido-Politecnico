@@ -58,11 +58,15 @@
     </header>
 
     <main>
-      <h2>¡Contáctanos!</h2>
-      <h3>Reseñas</h3>
+      <h2 id="alineamos" class="text-primary">¡Contáctanos!</h2>
 
       <div id="boxing">
+        <h3 id="alinea" style="color: #034ea2">
+          ¿Problemas con el local? ¡Ayúdanos a mejorar!
+        </h3>
+
         <form action="#" method="post">
+          <label for="floatingInput">Nombre</label>
           <div class="displays" class="form-floating mb-3">
             <input
               type="text"
@@ -70,8 +74,9 @@
               id="floatingNombre"
               placeholder="Nombre"
             />
-            <label for="floatingInput">Nombre</label>
           </div>
+          <br />
+          <label for="floatingPassword">Apellido</label>
           <div class="displays" class="form-floating">
             <input
               type="text"
@@ -79,7 +84,6 @@
               id="floatingApellido"
               placeholder="Apellido"
             />
-            <label for="floatingPassword">Apellido</label>
           </div>
           <br />
           <div class="mb-3">
@@ -94,18 +98,6 @@
             />
           </div>
 
-          <div class="mb-3">
-            <label for="quejas" class="form-label">Expresa tu queja</label>
-            <textarea class="form-control" id="quejas" rows="3"></textarea>
-          </div>
-          <div class="mb-3">
-            <label for="pruebas" class="pruebas"
-              >Selecciona los archivos correspondientes a las pruebas de tu
-              queja</label
-            ><br />
-            <input class="pruebas" type="file" id="pruebas" multiple="" />
-          </div>
-
           <label for="#">Seleccione su tipo de queja</label>
           <select class="form-select" aria-label="Default select example">
             <option selected>----</option>
@@ -113,6 +105,21 @@
             <option value="2">Algo no apto en el helado</option>
             <option value="3">Mal sabor</option>
           </select>
+          <br />
+          <div class="mb-3">
+            <label for="quejas" class="form-label">Expresa tu queja</label>
+            <textarea class="form-control" id="quejas" rows="3"></textarea>
+          </div>
+          <br />
+          <div class="mb-3">
+            <label for="pruebas" class="pruebas"
+              >Selecciona los archivos correspondientes a las pruebas de tu
+              queja</label
+            ><br />
+            <input class="pruebas" type="file" id="pruebas" multiple="" />
+          </div>
+          <br />
+          <input class="btn btn-primary" type="submit" value="Submit" />
         </form>
       </div>
     </main>
