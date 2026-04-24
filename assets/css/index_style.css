@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Toriga-Medium";
+  src: url(Toriga-Medium.otf) format("opentype");
+}
+* {
+  font-family: "Toriga-Medium";
+  font-weight: bold;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+}
+
+.container {
+  padding: 5%;
+  width: 80%;
+}
+.carousel-item {
+  width: 100%;
+}
