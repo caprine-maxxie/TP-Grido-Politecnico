@@ -25,3 +25,11 @@
     padding-bottom: 10px;
 }
 
+#card-title, #email {
+    text-align: center;
+}
+
+.decoraci {
+    text-align: center;
+    text-decoration: none;
+}
