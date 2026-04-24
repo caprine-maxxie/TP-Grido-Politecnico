@@ -60,22 +60,61 @@
     <main>
       <h2>¡Contáctanos!</h2>
       <h3>Reseñas</h3>
-      <form action="#" method="post">
-        <label for="nombre">Nombre</label>
-        <input type="text" />
 
-        <label for="apellido">Apellido</label>
-        <input type="text" />
+      <div id="boxing">
+        <form action="#" method="post">
+          <div class="displays" class="form-floating mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingNombre"
+              placeholder="Nombre"
+            />
+            <label for="floatingInput">Nombre</label>
+          </div>
+          <div class="displays" class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingApellido"
+              placeholder="Apellido"
+            />
+            <label for="floatingPassword">Apellido</label>
+          </div>
+          <br />
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Correo electrónico</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="nombre@gmail.com"
+            />
+          </div>
 
-        <label for="tipoQueja">Tipo de Queja</label>
-        <select name="tipoQueja" id="typehate">
-          <option value="malService">Mal servicio</option>
-          <option value="malSabor">Mal sabor</option>
-          <option value="otro">Otro (Especificar)</option>
-        </select>
-        <label for="especificar">Especificación</label>
-        <textarea name="especific" id="especificando"></textarea>
-      </form>
+          <div class="mb-3">
+            <label for="quejas" class="form-label">Expresa tu queja</label>
+            <textarea class="form-control" id="quejas" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="pruebas" class="pruebas"
+              >Selecciona los archivos correspondientes a las pruebas de tu
+              queja</label
+            ><br />
+            <input class="pruebas" type="file" id="pruebas" multiple="" />
+          </div>
+
+          <label for="#">Seleccione su tipo de queja</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>----</option>
+            <option value="1">Mal servicio</option>
+            <option value="2">Algo no apto en el helado</option>
+            <option value="3">Mal sabor</option>
+          </select>
+        </form>
+      </div>
     </main>
 
     <footer
