@@ -16,3 +16,10 @@
 .carousel-item {
   width: 100%;
 }
+h1 {
+  color: rgba(0, 21, 137);
+}
+
+a:hover {
+  background-color: red;
+}
