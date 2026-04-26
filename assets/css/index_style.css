@@ -1,14 +1,16 @@
+/* Se añadio una nueva fuente al proyecto*/
 @font-face {
   font-family: "Toriga-Medium";
   src: url(Toriga-Medium.otf) format("opentype");
 }
+/*se aplico a todo el texto de la pagina y se añadieron caracteristicas a su estilo*/
 * {
   font-family: "Toriga-Medium";
   font-weight: bold;
   letter-spacing: -1px;
   word-spacing: -2px;
 }
-
+/*se aplico a la seccion del contenedor un margen y un tamaño*/
 .container {
   padding: 5%;
   width: 80%;
@@ -16,6 +18,7 @@
 .carousel-item {
   width: 100%;
 }
+/* se aplico un color al texto y a los enlaces*/
 h1 {
   color: rgba(0, 21, 137);
 }
@@ -23,24 +26,29 @@ h1 {
 a:hover {
   background-color: red;
 }
+/*añadi una posicion fija para el boton de whatsapp */
 .wsp {
   position: fixed;
   bottom: 20px;
   right: 20px;
 }
+/*se definio el tamaño de las imagenes del boton de whatsapp */
 .wsp img {
   width: 50px;
   height: 50px;
 }
+/*se agrego flex para la galeria se la centro y se agrego un margen de 60px */
 .galeria {
   display: flex;
   gap: 60px;
   justify-content: center;
 }
+/*se definio el tamaño de las imagenes de la galeria */
 .galeria img {
   width: 200px;
   height: auto;
 }
+/*se centra el titulo y se le agrega padding para el margen */
 h1 {
   text-align: center;
   padding: 20px;
