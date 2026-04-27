@@ -23,9 +23,6 @@ h1 {
   color: rgba(0, 21, 137);
 }
 
-a:hover {
-  background-color: red;
-}
 /*añadi una posicion fija para el boton de whatsapp */
 .wsp {
   position: fixed;
@@ -52,4 +49,10 @@ a:hover {
 h1 {
   text-align: center;
   padding: 20px;
+}
+#breadcrumb {
+  padding: 2%;
+}
+a {
+  text-decoration: none;
 }
