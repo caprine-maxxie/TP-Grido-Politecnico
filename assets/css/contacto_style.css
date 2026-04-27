@@ -54,3 +54,7 @@
 body {
     background: linear-gradient(135deg, #e3f2fd, #ffffff);
 }
+
+#breadcrumb {
+  padding: 2%;
+}
