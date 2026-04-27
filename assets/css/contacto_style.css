@@ -1,0 +1,60 @@
+.boxing {
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+
+    
+}
+
+
+
+#alineamos {
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.alinea {
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+#card-title, #email {
+    text-align: center;
+}
+
+.decoraci {
+    text-align: center;
+    text-decoration: none;
+}
+
+#bordes-mapa {
+   text-align: center;
+   border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+body {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+}
+
+#breadcrumb {
+  padding: 2%;
+}
