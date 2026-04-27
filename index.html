@@ -11,6 +11,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/index_style.css" />
   </head>
 
   <body>
@@ -35,6 +36,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Se copio el codgo de bootstrap para añadir un carrusel de imagenes-->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -55,7 +57,134 @@
           </div>
         </div>
       </nav>
+      <nav id="breadcrumb" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html"> Inicio </a>
+          </li>
+        </ol>
+      </nav>
+
+      <!-- se añadio un boton de whatsapp con un enlace a la pagina de whatsapp web -->
+      <a href="https://web.whatsapp.com/" target="_blank" class="wsp"
+        ><img src="assets/img/wsplogo.jpg" alt="WHATSAPP LOGO" />
+      </a>
     </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <section>
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/img/car1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/img/car2.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/img/imgc3.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!-- Se usa el codigo de bootstrap para añadir una seccion de cartas con temas sobre grido -->
+      <div class="container">
+        <div class="row">
+          <div class="card col" style="width: 18rem">
+            <img src="assets/img/lugares.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Locales</h5>
+              <p class="card-text">
+                Conoce donde encontrar nuestros productos, y disfruta de un rico
+                helado en tu lugar favorito.
+              </p>
+              <a href="#" class="btn btn-primary">Vamos</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img
+              src="assets/img/clubgrido.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Club Grido</h5>
+              <p class="card-text">
+                Conoce los beneficios de ser parte del club grido, y disfruta de
+                descuentos exclusivos.
+              </p>
+              <a href="#" class="btn btn-primary">Vamos</a>
+            </div>
+          </div>
+          <div class="card col" style="width: 18rem">
+            <img src="assets/img/sabores.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sabores</h5>
+              <p class="card-text">
+                Descubre nuestros sabores exclusivos, elaborados con
+                ingredientes de la más alta calidad.
+              </p>
+              <a href="#" class="btn btn-primary">Vamos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- creo una seccion donde iran las imagenes de la galeria -->
+      <section>
+        <h1>Que hay de Nuevo?</h1>
+        <div class="galeria">
+          <img src="assets/img/gal1.jpg" alt="imagen1 de grido" />
+          <img src="assets/img/gal2.jpg" alt="imagen 2 de grido" />
+          <img src="assets/img/gal3.jpg" alt="imagen 3 de grido" />
+          <img src="assets/img/gal4.jpg" alt="imagen 4 de grido" />
+        </div>
+      </section>
+    </main>
 
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
