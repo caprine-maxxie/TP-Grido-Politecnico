@@ -1,0 +1,45 @@
+* {
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+}
+
+.Titulo {
+    color: #0D47A1;
+    font-size: 42px;
+}
+
+.Principio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: clamp(500px, 100vw, 520px);
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    gap: 12px;
+    padding: 28px 32px;
+    background: rgba(175, 243, 255, 0.35);
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(70, 165, 243, 0.411);
+}
+
+.parrafo-titulo {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    word-spacing: 1px;
+}
+
+.acordeon-header {
+    color: #0D47A1;
+}
+
+.figure {
+    display: grid;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+#breadcrumb {
+    padding: 2%;
+}
